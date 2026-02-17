@@ -28,7 +28,7 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 ## 2. Examples
 To encrypt a message, find each character in the table and write its row number followed by its column number.
 
-**442315 7 945241331 1242355234 223553 2545334143 35511542 442315 32115554 143522.**
+**442315 7 945241331 1242355234 213553 2545334143 35511542 442315 32115554 143522.**
 
 > Plaintext: "The 7 quick brown fox jumps over the lazy dog."
 
@@ -46,6 +46,7 @@ To encrypt a message, find each character in the table and write its row number 
   <span id="copy-message" style="margin-left: 10px; color: #40c840; display: none;">Copied!</span>
 </div>
 
+
 <script>
 function encrypt() {
   const table = {
@@ -59,7 +60,7 @@ function encrypt() {
 
   const rawInput = document.getElementById('input-text').value;
   let text = rawInput.normalize('NFKC').toLowerCase();
-  
+
   // アルファベットを一つずつ数字に変換する
   let result = "";
   for (let char of text) {
