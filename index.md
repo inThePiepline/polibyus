@@ -23,5 +23,6 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 ## 2. Examples
 To encrypt a message, find each character in the table and write its row number followed by its column number.
 
-442315 945241331 1242355234 223553 2545334143 35511542 442315 32115554 143522.
-**Plaintext:** "The quick brown fox jumps over the lazy dog."
+**442315 945241331 1242355234 223553 2545334143 35511542 442315 32115554 143522.**
+
+> Plaintext: "The quick brown fox jumps over the lazy dog."
