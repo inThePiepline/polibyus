@@ -78,6 +78,24 @@ function encrypt() {
 
   document.getElementById('output-text').innerText = finalOutput;
 }
+
+
+function copyToClipboard() {
+  const outputText = document.getElementById('output-text').innerText;
+  if (!outputText) return;
+
+  // クリップボードにコピー
+  navigator.clipboard.writeText(outputText).then(() => {
+    // コピー成功時に「Copied!」というメッセージを一瞬出す
+    const msg = document.getElementById('copy-message');
+    msg.style.display = 'inline';
+    setTimeout(() => {
+      msg.style.display = 'none';
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
+}
 </script>
 
 ---
