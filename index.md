@@ -8,6 +8,8 @@ description: "Polibyus is a cipher table created based on the Polybius square."
  1. [Polibyus Table](#1-polibyus-table)
  2. [Examples](#2-examples)
 
+<br>
+
 ## 1. Polibyus Table
 
 | | 1 | 2 | 3 | 4 | 5 |
@@ -20,9 +22,13 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 
 > **Special Rule:** q = 9
 
+<br>
+
 ## 2. Examples
 To encrypt a message, find each character in the table and write its row number followed by its column number.
 
-**442315 945241331 1242355234 223553 2545334143 35511542 442315 32115554 143522.**
+**442315 7 945241331 1242355234 223553 2545334143 35511542 442315 32115554 143522.**
 
-> Plaintext: "The quick brown fox jumps over the lazy dog."
+> Plaintext: "The 7 quick brown fox jumps over the lazy dog."
+
+---
