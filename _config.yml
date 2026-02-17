@@ -1,0 +1,6 @@
+title: "Inthepiepline"
+description: "You play with the cards you're dealt."
+# remote_theme: jekyll/minima
+theme: minima
+header_pages:
+  - index.md
