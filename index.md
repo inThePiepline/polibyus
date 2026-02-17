@@ -39,9 +39,11 @@ To encrypt a message, find each character in the table and write its row number 
 <div id="cipher-app">
   <h3 for="input-text">Enter English text:</h3>
   <textarea id="input-text" rows="6" style="width: 98%; border: 2px solid #ccc; border-radius: 4px;" placeholder="Type your message here..."></textarea>
-  <button onclick="encrypt()" style="margin: 10px 0px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">Encrypt</button>
+  <button onclick="encrypt()" style="margin: 10px 0px; padding: 10px 20px; background-color: #184480; color: white; border: none; border-radius: 4px; cursor: pointer;">Encrypt</button>
   <h3>Result:</h3>
-  <div id="output-text" style="padding: 18px; background: #f8f9fa; border: 2px solid #007bff; min-height: 50px; word-break: break-all;"></div>
+  <div id="output-text" style="padding: 18px; background: #f4f4f4; border: 2px solid #20b0e8; min-height: 50px; word-break: break-all;"></div>
+  <button onclick="copyToClipboard()" style="margin: 10px 0px; padding: 10px 20px; background-color: #108050; color: white; border: none; border-radius: 4px; cursor: pointer;">Copy</button>
+  <span id="copy-message" style="margin-left: 10px; color: #40c840; display: none;">Copied!</span>
 </div>
 
 <script>
