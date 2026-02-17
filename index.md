@@ -7,7 +7,7 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 ## Contents
  1. [Polibyus Table](#1-polibyus-table)
  2. [Examples](#2-examples)
- 3. [Cipher Generator](#2-cipher-generator)
+ 3. [Cipher Generator](#3-cipher-generator)
 
 <br>
 
@@ -36,12 +36,12 @@ To encrypt a message, find each character in the table and write its row number 
 
 ## 3. Cipher Generator
 
-<div id="cipher-app" style="max-width: 600px; margin: 20px auto; font-family: sans-serif;">
+<div id="cipher-app">
   <label for="input-text">Enter English text:</label>
-  <textarea id="input-text" rows="4" style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 4px;" placeholder="Type your message here..."></textarea>
-  <button onclick="encrypt()" style="margin-top: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">Encrypt</button>
-  <h3 style="margin-top: 30px;">Result (Polibyus Cipher):</h3>
-  <div id="output-text" style="padding: 15px; background: #f8f9fa; border: 1px dashed #007bff; min-height: 50px; word-break: break-all; font-family: monospace; font-size: 1.2em;"></div>
+  <textarea id="input-text" rows="6" style="width: 100%; border: 2px solid #ccc; border-radius: 4px;" placeholder="Type your message here..."></textarea>
+  <button onclick="encrypt()" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">Encrypt</button>
+  <label>Result:</label>
+  <div id="output-text" style="padding: 18px; background: #f8f9fa; border: 2px dashed #007bff; min-height: 50px; word-break: break-all;"></div>
 </div>
 
 <script>
