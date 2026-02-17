@@ -72,7 +72,6 @@ function encrypt() {
   let step1 = result.replace(/([0-9]+)/g, " $1 ");
   // 連続してしまったスペース（"  "）を一つ（" "）にまとめる
   let step2 = step1.replace(/\s+/g, " ");
-  // 最初と最後にある余計なスペースを削って完成！
   let finalOutput = step2.trim();
 
   document.getElementById('output-text').innerText = finalOutput;
