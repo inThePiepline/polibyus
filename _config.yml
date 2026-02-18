@@ -4,3 +4,4 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 theme: minima
 header_pages:
   - index.md
+favicon_path: "/images/favicon.png"
