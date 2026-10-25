@@ -7,10 +7,9 @@ description: "Polibyus is a cipher table created based on the Polybius square."
 **4135322412544543 2443 11 132441231542 4411123215 13421511441514 1211431514 3534 442315 4135325412244543 43945114215.**
 
 ## Contents
-- [Contents](#contents)
-- [1. Polibyus Table](#1-polibyus-table)
-- [2. Examples](#2-examples)
-- [3. Generator](#3-generator)
+ 1. [Polibyus Table](#1-polibyus-table)
+ 2. [Examples](#2-examples)
+ 3. [Generator](#3-generator)
 
 <br>
 
